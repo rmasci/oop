@@ -1,4 +1,8 @@
-package oopdemo
+package oop
+
+// Simple demo for opject oriented Golang demo.
+// This is to be used in an upcoming presentation
+// for the Software Symposium
 
 import (
 	"encoding/json"
@@ -11,7 +15,8 @@ type Human struct {
 	Age   string
 }
 
-// These are fields for Super Humans, it inherits the type and methods of Human
+// These are fields for Super Humans,
+// it inherits the type and methods of Human
 type SuperHuman struct {
 	Human
 	Superpower string
