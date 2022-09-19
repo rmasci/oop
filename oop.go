@@ -36,9 +36,7 @@ type RegularHuman struct {
 
 // InitHuman This function is passed with the first, last, age of your human.
 func (h *Human) InitHuman(first, last string, age int) {
-	h.First = first
-	h.Last = last
-	h.Age = age
+	h = &Human{First: first, Last: last, Age: age}
 }
 
 // InitSuperHuman This initializes a superhuman pass in the first last and age
