@@ -1,3 +1,5 @@
+package main
+
 /*
 oop is an attempt at showing Go's Object Oriented abilities. 
 * Encapsulation -- Data in a class can be hidden from other classes. This is done in Go but. Inside a package, if you define a struct or method that doesn't start with a capital letter, its not 'exported' to the rest of the code. It's encapsulated. 
